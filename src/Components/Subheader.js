@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Styling/Subheader.css'
 
 function Subheader(props) { 
 

@@ -1,3 +1,8 @@
+body {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .dorky-header {
     color: red;
     background-color: lightblue;
@@ -6,4 +11,10 @@
 
 .phil-list-header {
     font-style: italic;
+}
+
+.phils-container {
+    display: flex;
+    flex-direction: column;
+
 }

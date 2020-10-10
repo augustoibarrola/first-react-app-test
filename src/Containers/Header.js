@@ -15,7 +15,9 @@ class Header extends React.Component {
             <div>
                 <h1 className="dorky-header"> Welcome to A Dorky React Practice Project </h1>
                 <h2 className="phil-list-header">List of Philosophers: </h2>
-                {this.philosophers()}
+                <div className="phils-container">
+                    {this.philosophers()}
+                </div>
              </div>
         )
     }
