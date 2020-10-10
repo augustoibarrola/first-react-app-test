@@ -1,19 +1,26 @@
 import React from 'react'
 import Subheader from './Subheader'
 
-function Header(props) { //!!functions take in props from their parents by taking them in as arguments. Henhce, `Header(props)`, where `props` represents the properties passed to Header from its parent. The argument in the parenthesis can be named anything – convention says 'props' but it can be named anything
-    
-    let philosophers = props.philList.map(function (philosopher) {return <Subheader name={philosopher} />})
+class Header extends React.Component {
+    // !!class components also always are instantiated with a 'props' object. `this.props` is always posssible 
 
-    return (
-        <div>
-            <h1> Welcome to A Dorky React Practice Project </h1>
-            <h2>List of Philosophers: </h2>
-            {philosophers}
-        </div>
-    )
+    philosophers = () => {
+    return this.props.philList.map(function (philosopher) {return <Subheader name={philosopher} />} )
+    } 
+    // !!always remember to RETURN inside a function block
+
+    render() { //!!render() is REQUIRED in class components. everytime this component is run, render shoots off. It is one of the first fucntions to fire in the components lifecycle. 
+        // const philosophers = this.props.philList.map(function (philosopher) {return <Subheader name={philosopher} />})
+        // !! the proper place to put this is outside as a class-notation function
+        return(
+            <div>
+                <h1> Welcome to A Dorky React Practice Project </h1>
+                <h2>List of Philosophers: </h2>
+                {this.philosophers()}
+             </div>
+        )
+    }
 }
 
 export default Header 
 
-//!!functions do not that a `this` property, so props are called on on their own, and not appended to `this.`
