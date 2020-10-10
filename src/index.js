@@ -5,11 +5,11 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import Header from './Header.js'
 
-const philosophers = ["Sartre", "Plato", "Socrates", "Simone Weil"]
+const philosophersList = ["Sartre", "Plato", "Socrates", "Simone Weil"]
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header name="Augusto" />
+    <Header philList={philosophersList}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
