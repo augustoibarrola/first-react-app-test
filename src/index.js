@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Header from './Header.js'
 
-const philosophersList = ["Sartre", "Plato", "Socrates", "Simone Weil"]
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header philList={philosophersList}/>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
