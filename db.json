@@ -1,0 +1,26 @@
+{
+    "philosophers": [
+        {
+        "name": "Jean-Paul Sartre",
+        "movement": "Existentialism",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Sartre_1967_crop.jpg"
+        
+        }, 
+        {
+            "name": "Plato",
+            "movement": "Socratic/Platonic",
+            "image": "https://classicalwisdom.com/wp-content/uploads/2013/07/plato_bust-1.jpg"
+        }, 
+        {
+            "name": "Socrates",
+            "movement": "Socratic",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/8/8c/David_-_The_Death_of_Socrates.jpg"
+        }, 
+        {
+            "name": "Simone Weil",
+            "movement": "Existentialism",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/2/23/Simone_Weil_04_%28cropped%29.png"
+        }
+    ]
+}
+
