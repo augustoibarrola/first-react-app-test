@@ -11,10 +11,12 @@ body {
 
 .phil-list-header {
     font-style: italic;
+    text-align: center;
 }
 
 .phils-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }

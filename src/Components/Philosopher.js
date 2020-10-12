@@ -8,7 +8,7 @@ class Philosopher extends React.Component {
         return (
         <div>
             <h3>{this.props.philosopher.name}</h3>
-            <img className="philosopher-portrait" src={this.props.philosopher.image} alt="philosopher portrait"></img>
+            <img src={this.props.philosopher.image} className="philosopher-portrait" alt="philosopher portrait"></img>
         </div>
 
     )}

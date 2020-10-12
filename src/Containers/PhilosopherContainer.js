@@ -1,6 +1,6 @@
 import React from 'react'
 import Philosopher from '../Components/Philosopher'
-import '../Styling/Header.css'
+import '../Styling/PhilosopherContainer.css'
 
 class PhilosopherContainer extends React.Component {
 
@@ -22,8 +22,9 @@ class PhilosopherContainer extends React.Component {
             <div>
                 <h1 className="dorky-header" onClick={headerHandler}> Welcome to A Dorky React Practice Project </h1>
                 <h2 className="phil-list-header">List of Philosophers: </h2>
-                <div className="phils-container"></div>
-                {philosophers()}
+                <div className="phils-container">
+                  {philosophers()}
+                </div>
              </div>
         )
     }
