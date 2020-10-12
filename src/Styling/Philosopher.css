@@ -1,8 +1,16 @@
 h3 {
     font-style: italic;
+    text-align: center;
 }
 
 .philosopher-portrait {
     max-width: 300px;
     max-height: auto;
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.philosopher-portrait:hover {
+    opacity: .5;
 }
