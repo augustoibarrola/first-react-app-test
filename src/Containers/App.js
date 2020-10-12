@@ -1,15 +1,21 @@
 import React from 'react';
 import '../Styling/App.css';
-import Header from './Header.js'
+import PhilosopherContainer from './PhilosopherContainer.js'
 
 
-function App() {
-  const philosophersList = ["Sartre", "Plato", "Socrates", "Simone Weil"]
-  return (
-    <div>
-         <Header philList={philosophersList}/>
-    </div>
-  );
+class App extends React.Component {
+
+
+  render() {
+    return (
+      <div>
+        <PhilosopherContainer />
+      </div>
+    )
+  }
+
+  
+
 }
 
 export default App;
