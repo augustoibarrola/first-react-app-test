@@ -1,0 +1,8 @@
+h3 {
+    font-style: italic;
+}
+
+.philosopher-portrait {
+    max-width: 300px;
+    max-height: auto;
+}
