@@ -1,26 +1,34 @@
 {
-    "philosophers": [
-        {
-        "name": "Jean-Paul Sartre",
-        "movement": "Existentialism",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Sartre_1967_crop.jpg"
-        
-        }, 
-        {
-            "name": "Plato",
-            "movement": "Socratic/Platonic",
-            "image": "https://classicalwisdom.com/wp-content/uploads/2013/07/plato_bust-1.jpg"
-        }, 
-        {
-            "name": "Socrates",
-            "movement": "Socratic",
-            "image":"https://upload.wikimedia.org/wikipedia/commons/8/8c/David_-_The_Death_of_Socrates.jpg"
-        }, 
-        {
-            "name": "Simone Weil",
-            "movement": "Existentialism",
-            "img": "https://upload.wikimedia.org/wikipedia/commons/2/23/Simone_Weil_04_%28cropped%29.png"
-        }
-    ]
+  "philosophers": [
+    {
+      "id": 1,
+      "name": "Jean-Paul Sartre",
+      "movement": "Existentialism",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Sartre_1967_crop.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Plato",
+      "movement": "Socratic/Platonic",
+      "image": "https://classicalwisdom.com/wp-content/uploads/2013/07/plato_bust-1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Socrates",
+      "movement": "Socratic",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/David_-_The_Death_of_Socrates.jpg"
+    },
+    {
+      "name": "Judith Butler",
+      "movement": "Critical Theory",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS5q2AiM4x_jXp4WV-EmGFwnClujSqoYUaHkw&usqp=CAU",
+      "id": 6
+    },
+    {
+      "name": "Aristotle",
+      "movement": "Ancient Greek",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/220px-Aristotle_Altemps_Inv8575.jpg",
+      "id": 7
+    }
+  ]
 }
-

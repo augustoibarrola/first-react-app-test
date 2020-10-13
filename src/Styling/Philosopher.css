@@ -3,6 +3,12 @@ h3 {
     text-align: center;
 }
 
+.philosopher-individual-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .philosopher-portrait {
     max-width: 300px;
     max-height: auto;
