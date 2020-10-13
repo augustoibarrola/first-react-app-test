@@ -11,7 +11,7 @@ class Philosopher extends React.Component {
             <form onSubmit={this.props.deletePhilosopher}>
             <h3 id={this.props.philosopher.id}>{this.props.philosopher.name}</h3>
             <img src={this.props.philosopher.image} className="philosopher-portrait" alt="portrait of philosopher" ></img>
-            <button id={this.props.philosopher.id} type="submit">delete</button>
+            <button id={this.props.philosopher.id} type="submit">x</button>
             </form>
                 
         </div>

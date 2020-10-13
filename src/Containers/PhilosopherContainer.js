@@ -55,7 +55,6 @@ class PhilosopherContainer extends React.Component {
         movement: target[1].value,
         image: target[2].value
       })
-
     }
     fetch('http://localhost:3000/philosophers/', options)
     .then(response => response.json())
